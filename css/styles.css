@@ -1,5 +1,5 @@
 body {
-    font-family: "Roboto", "Releway" sans-serif;
+    font-family: "Roboto", "Releway", sans-serif;
     color: #434455;
     background-color: #FFF;
 }
@@ -10,7 +10,7 @@ body {
 }
 
 .title-name {
-    color: var(--IRIS, #4D5AE5);
+    color: #4D5AE5;
     font-family: Raleway;
     font-size: 18px;
     font-style: normal;
@@ -61,6 +61,7 @@ body {
     color: #434455;
     line-height: 1.5;
     letter-spacing: 0.32px;
+    font-style: normal
 }
 
 .adress .adress-info:hover,
