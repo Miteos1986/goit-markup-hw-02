@@ -1,0 +1,123 @@
+body {
+    font-family: "Roboto", sans-serif;
+    font-family: "Raleway"
+        sans-serif;
+    color: #434455;
+    background-color: #FFF;
+}
+
+/* header */
+.team {
+    background: #F4F4FD;
+}
+
+.title-name {
+    color: #4D5AE5;
+    font-family: Raleway;
+    font-size: 18px;
+
+    line-height: 21px;
+
+    letter-spacing: 1.17;
+    text-transform: uppercase;
+}
+
+.title-name-up {
+    color: #2E2F42;
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 1.17;
+    text-transform: uppercase;
+}
+
+.title-name-down {
+    color: #F4F4FD;
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 1.17;
+    text-transform: uppercase;
+}
+
+
+.head-link .link {
+    text-decoration: none;
+    font-family: Roboto;
+
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+    color: #2E2F42;
+}
+
+.head-link .link:hover,
+.head-link .link:focus {
+    color: #404BBF;
+}
+
+.adress .adress-info {
+    text-decoration: none;
+    color: #434455;
+    font-family: Roboto;
+
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+}
+
+.adress .adress-info:hover,
+.adress .adress-info:focus {
+    color: #404BBF;
+}
+
+.buton {
+    color: #FFF;
+    /* Button Text */
+    font-family: Roboto;
+
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.64px;
+    background-color: #4D5AE5;
+    cursor: pointer;
+}
+
+.buton .buton:hover,
+.buton .buton:focus {
+    background-color: #404BBF;
+}
+
+.header-1 {
+    color: #FFF;
+    background-color: #2E2F42;
+    text-align: center;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.07;
+    letter-spacing: 1.12px;
+}
+
+/* section */
+.header-3 {
+    color: #2E2F42;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.4px;
+}
+
+.header-3-subtitle {
+    color: #434455;
+    font-family: Roboto;
+
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+}
+
+footer {
+    background: #2E2F42;
+}
