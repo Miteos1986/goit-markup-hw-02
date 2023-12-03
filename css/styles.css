@@ -1,5 +1,6 @@
 body {
-    font-family: "Roboto", "Releway", sans-serif;
+    font-family: "Roboto",
+        sans-serif;
     color: #434455;
     background-color: #FFF;
 }
@@ -9,7 +10,7 @@ body {
     background: #F4F4FD;
 }
 
-.title-name {
+.logo {
     color: #4D5AE5;
     font-family: Raleway;
     font-size: 18px;
@@ -20,9 +21,10 @@ body {
     text-transform: uppercase;
 }
 
-.title-name-up {
+.logo-span-up {
     color: #2E2F42;
-    font-family: Raleway;
+    font-family: "Raleway",
+        sans-serif;
     font-size: 18px;
     font-weight: 700;
     line-height: 21px;
@@ -31,7 +33,7 @@ body {
     text-transform: uppercase;
 }
 
-.title-name-down {
+.logo-span-down {
     color: #F4F4FD;
     font-family: Raleway;
     font-size: 18px;
@@ -54,6 +56,10 @@ body {
 .head-link .link:hover,
 .head-link .link:focus {
     color: #404BBF;
+}
+
+.adress {
+    font-style: normal
 }
 
 .adress .adress-info {
