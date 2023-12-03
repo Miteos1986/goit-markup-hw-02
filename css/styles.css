@@ -1,6 +1,5 @@
 body {
-    font-family: "Roboto", sans-serif;
-    font-family: "Raleway", sans-serif;
+    font-family: "Roboto", "Releway" sans-serif;
     color: #434455;
     background-color: #FFF;
 }
@@ -11,13 +10,13 @@ body {
 }
 
 .title-name {
-    color: #4D5AE5;
+    color: var(--IRIS, #4D5AE5);
     font-family: Raleway;
     font-size: 18px;
-
-    line-height: 21px;
-
-    letter-spacing: 1.17;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.54px;
     text-transform: uppercase;
 }
 
@@ -27,7 +26,8 @@ body {
     font-size: 18px;
     font-weight: 700;
     line-height: 21px;
-    letter-spacing: 1.17;
+    line-height: 1.17;
+    letter-spacing: 0.54px;
     text-transform: uppercase;
 }
 
@@ -37,15 +37,14 @@ body {
     font-size: 18px;
     font-weight: 700;
     line-height: 21px;
-    letter-spacing: 1.17;
+    line-height: 1.17;
+    letter-spacing: 0.54px;
     text-transform: uppercase;
 }
 
 
 .head-link .link {
     text-decoration: none;
-    font-family: Roboto;
-
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.32px;
@@ -60,8 +59,6 @@ body {
 .adress .adress-info {
     text-decoration: none;
     color: #434455;
-    font-family: Roboto;
-
     line-height: 1.5;
     letter-spacing: 0.32px;
 }
@@ -74,8 +71,6 @@ body {
 .buton {
     color: #FFF;
     /* Button Text */
-    font-family: Roboto;
-
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.64px;
@@ -102,7 +97,6 @@ body {
 .header-3 {
     color: #2E2F42;
     text-align: center;
-    font-family: Roboto;
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
@@ -111,8 +105,6 @@ body {
 
 .header-3-subtitle {
     color: #434455;
-    font-family: Roboto;
-
     line-height: 1.5;
     letter-spacing: 0.32px;
 }
