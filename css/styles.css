@@ -5,6 +5,14 @@ body {
     background-color: #FFF;
 }
 
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
 /* header */
 .team {
     background: #F4F4FD;
